@@ -1,0 +1,32 @@
+{
+  "name": "@navify/swiftlint",
+  "version": "1.0.1-beta.0",
+  "description": "Tiny SwiftLint wrapper for npm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navify/swiftlint.git"
+  },
+  "bin": {
+    "node-swiftlint": "bin.js"
+  },
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  },
+  "files": [
+    "bin.js",
+    "postinstall.js",
+    "utils.js"
+  ],
+  "keywords": [],
+  "author": "Navify Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/navify/swiftlint/issues"
+  },
+  "homepage": "https://github.com/navify/swiftlint#readme",
+  "dependencies": {
+    "@navify/utils-fs": "^3.1.6-beta.0",
+    "@navify/utils-subprocess": "^2.1.11-beta.0",
+    "cosmiconfig": "^6.0.0"
+  }
+}
